@@ -13,6 +13,14 @@ section {
 p, a {
     font-family: 'Roboto Mono', monospace;
 }
+p {
+    color: dimgray;
+}
+
+h3 {
+    font-size: 20px;
+}
+
 section::after {
     content: " ";
     clear: both;
@@ -37,6 +45,7 @@ a.button-style {
     padding: 15px 40px;
     display: inline-block;
     color: white;
+    border-radius: 5px;
 }
 
 a.button-style:hover {
@@ -81,4 +90,8 @@ img {
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, lightblue);
     border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
